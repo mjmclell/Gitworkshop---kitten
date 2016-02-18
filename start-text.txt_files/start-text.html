@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- saved from url=(0124)https://dl.dropboxusercontent.com/content_link_htmlify/zhqoOiV57DrZQipPo7wf7GGkGCEeS6xvWziSlGoWSbcqdbmqcAky2IhQ42kmjkNH/file -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--<base href="//www.dropbox.com" target="_top">--><base href="." target="_top">
+  <style type="text/css">
+html, body, pre {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 12px;
+}
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+#code .syntaxhighlighter {
+    overflow: visible !important;
+    margin: 0 !important;
+}
+.add-padding #code {
+    padding: 10px;
+}
+</style>
+  <link rel="stylesheet" href="preview_html_rams.css">
+  <script src="jquery.min(1).js"></script>
+  <script src="frame_messenger.js"></script>
+  <script src="preview_html_rams.js"></script>
+  <script type="text/javascript">
+    var lastPostedHeight = -1;
+    function postHeight() {
+        var currentHeight = document.body.scrollHeight;
+        if (currentHeight != lastPostedHeight) {
+            lastPostedHeight = currentHeight;
+            parent.postMessage(currentHeight, 'https://www.dropbox.com');
+        }
+    }
+    function postHeightRepeat(n) {
+        if (!n) return;
+
+        postHeight();
+        window.setTimeout(function() { postHeightRepeat(n-1) }, 250);
+    }
+    function onload() {  }
+  </script>
+  
+ </head>
+ <body class="add-padding" onload="onload(); postHeightRepeat(20);">
+  <pre id="code" class="brush: text; plain-text"># Markdown?!
+
+This file is both a text file, and a markdown file.
+
+Markdown is a simple set of formatting instructions that let you add formatting to a text file. Markdown was developed by John Gruber and Aaron Swartz, and the specification is still on John Gruber's website: https://daringfireball.net/projects/markdown/
+
+GitHub supports an extended set of markdown, and has an intoductory guide here: https://guides.github.com/features/mastering-markdown/
+
+You can use markdown in many of the text fields on GitHub to add extra formatting to your text:
+* Gists
+* Comments in Issues and Pull Requests
+* Files with the `.md` or `.markdown extension`
+
+and the GitHub preview will apply the markdown formating.</pre>
+ 
+
+</body></html>
