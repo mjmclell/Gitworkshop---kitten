@@ -16,16 +16,7 @@ You can use markdown in many of the text fields on Git
 
 Hub to add extra formatting to your text:
 * Gists
-* Comments in Issues and Pu
-
-
-
-xxxxxxxxxxxxxxxxxxxx
-
-xxxxxxxxxxxxxxxxxxx
-
-
-ll Requests
+* Comments in Issues and Pull Requests
 * Files with the `.md` or `.markdown extension`
 
 and the GitHub preview will apply the markdown formating.
